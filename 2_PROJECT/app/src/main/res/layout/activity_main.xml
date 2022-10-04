@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="left"
+            android:singleLine="false"
+            android:text="운동은 하루를 짧게 하지만 \n 인생을 길게 해준다."
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#686767" />
+
+
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오늘 계획은 어떻게 되세요?"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/drawer_fire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="여기에 파베에서 받아온 오늘 운동 리스트 출력 만약에 운동 없으면 디폴트 값으로 오늘은 운동계획이 없습니다 출력"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left" />
+
+        <Button
+            android:id="@+id/todaybtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#4a89dc"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="오늘의 운동 계획하기"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/hometrainingbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="홈트레이닝을 고민 중이신가요?"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left" />
+
+        <Button
+            android:id="@+id/btnyoutub"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FFF"
+            android:drawableLeft="@drawable/youtube_icon"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="유튜브 영상 보며 운동하자!"
+            android:textColor="#4a89dc" />
+
+        <Button
+            android:id="@+id/stopwatch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FFF"
+            android:drawableLeft="@drawable/timericon"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginBottom="60dp"
+            android:text="인터벌 타이머"
+            android:textColor="#4a89dc" />
+    </LinearLayout>
+
+    <include layout="@layout/activity_drawer"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

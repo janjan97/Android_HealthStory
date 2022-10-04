@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "129189724887",
+    "firebase_url": "https://health-story-7031c-default-rtdb.firebaseio.com",
+    "project_id": "health-story-7031c",
+    "storage_bucket": "health-story-7031c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129189724887:android:c8f68271a0a6b54b502692",
+        "android_client_info": {
+          "package_name": "com.example.HealthStory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129189724887-v4elc5j2t90dnns6959c9vehh87kj8p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ4JFLMoxKc4ihJxPU0ii7LlIQXB_BqXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129189724887-v4elc5j2t90dnns6959c9vehh87kj8p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShoppingActivity">
+
+
+    <Button
+        android:id="@+id/btn_ccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닭가슴살"/>
+    <Button
+        android:id="@+id/btn_bag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="담은품목"/>
+
+    <Button
+        android:id="@+id/btn_cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="운동"/>
+
+    <Button
+        android:id="@+id/btn_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="캘린더"/>
+
+
+
+</LinearLayout>

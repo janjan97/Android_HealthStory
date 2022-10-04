@@ -1,0 +1,135 @@
+@charset "UTF-8";
+body {
+  background: #f5f5ff;
+  font-family: "Dosis", sans-serif;
+  align-items: center;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 4rem 0.8rem;
+  align-items: center;
+}
+@media (min-width: 850px) {
+  main {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    align-items: center;
+  }
+
+  main h1 {
+    align-self: flex-end;
+	align-items: center;
+
+  }
+  main .workout-main,
+main aside {
+    grid-column: 1/-1;
+  }
+}
+@media (min-width: 1000px) {
+  main {
+    max-width: 140px;
+    margin: 5;
+    grid-template-columns: min-content 1fr 2fr;
+  }
+  main svg {
+    width: 50%;
+    margin-right: -30%;
+  }
+
+}
+
+h1 {
+  font: 700 3rem/1 "Dosis";
+  text-transform: uppercase;
+  color: #5450a9;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  text-align: center;
+}
+@media (min-width: 850px) {
+  h1 {
+    font: 700 4.8rem/1 "Dosis";
+  }
+}
+
+svg {
+  opacity: 0.65;
+  z-index: -1;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.workout-main {
+  position: relative;
+}
+
+.workout-question {
+  margin: 1rem 0.5rem 0.5rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 8px rgba(98, 127, 232, 0.3);
+  text-align: center;
+  color: #5753a9;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  position: sticky;
+  top: 1rem;
+  z-index: 1;
+}
+@media (min-width: 850px) {
+  .workout-question {
+    padding: 1rem 2rem;
+  }
+}
+.workout-question > * {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.workout-question .rest-day, .workout-question .amazing-day {
+  display: none;
+}
+.workout-question .amazing-day {
+  padding: 1.5rem;
+  text-align: center;
+}
+.workout-question p {
+  margin-bottom: 0.6rem;
+  width: 100%;
+}
+@media (min-width: 850px) {
+  .workout-question p {
+    width: auto;
+    margin: 0;
+  }
+}
+.workout-question a.button {
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  background: #627fe8;
+  color: #fff;
+  margin: 0.5rem 0.3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.workout-question a.button:hover, .workout-question a.button:focus, .workout-question a.button:active {
+  box-shadow: 0 0 0 4px #b2b7e8;
+}
+
+
+
+
+
+
+

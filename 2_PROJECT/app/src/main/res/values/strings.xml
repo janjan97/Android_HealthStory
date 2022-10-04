@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HealthStory</string>
+    <string name="sign_in">sign_in</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="log_in">log_in</string>
+    <string name="action_settings">Settings</string>
+</resources>
