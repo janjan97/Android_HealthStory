@@ -134,6 +134,7 @@ class TimerActivity : AppCompatActivity() {
 
         //set the length of the timer to be the one set in SettingsActivity
         //if the length was changed when the timer was running
+        
         setNewTimerLength()
 
         progress_countdown.progress = 0
